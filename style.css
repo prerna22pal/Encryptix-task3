@@ -1,0 +1,321 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+  height: 8vmin;
+  background-color: rgb(68, 127, 132);
+  
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.logo{
+  margin: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav ul {
+  display: flex;
+  
+ 
+}
+.nav ul li{
+  list-style: none;
+  margin: 20px 0 0 80px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  
+}
+.nav ul li:hover{
+  color: aliceblue;
+  cursor: pointer;
+}
+.account{
+  display: flex;
+  margin: 20px;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+  color: rgb(191, 234, 237);
+}
+
+.home{
+  height: 90vmin;
+  background-color: rgb(196, 211, 212);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  color: rgb(27, 27, 46);
+}
+.home-content{
+  height: 70vmin;
+  width: 80vmin;
+  margin: 150px 0 0 100px;
+  
+}
+.home h1{
+  font-size: 5rem;
+  color: rgb(27, 27, 46);
+}
+.home h2{
+  font-size: 2.8rem;
+  margin-top: 10px;
+  color:rgb(9, 127, 143);
+}
+.home p{
+  margin-top: 15px; 
+  color:rgb(106, 107, 108);
+  font-size: 1rem;
+}
+
+.btn{
+  margin: 50px 0 0 20px;
+  height: 40px;
+  width: 120px;
+  border-radius: 100px;
+  background-color: rgb(27, 27, 46);
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+.btn:hover{
+  color: powderblue;
+
+}
+.home img{
+  height: 80vmin;
+  width: 80vmin;
+  margin-top: 5vmin;
+ 
+}
+.about{
+  height: 90vmin;
+  background-color: rgb(225, 231, 231);
+  padding: 40px;
+}
+.abt-text{
+  height: 30px;
+  width: 150vmin;
+  background-color:  rgb(164, 194, 197);
+  margin:0px 0 0px 110px;
+  align-items: center;
+  text-align: center;
+  color: rgb(37, 85, 90);
+  padding: 30px;
+  font-weight:bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue{
+  color:rgb(27, 27, 46);
+  font-weight:bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abt-us{
+  display: flex;
+  padding: 0px;
+  
+}
+.video{
+  height: 50vmin;
+  width: 50vmin;
+  margin-top: 100px;
+}
+.videos{
+  display: flex;
+  width: 70vmin;
+  margin-left: 150px;
+}
+.abt-text1{
+  height: 45vmin;
+  width: 60vmin;
+  background-color: rgb(239, 239, 239);
+  padding: 20px;
+  margin-top: 100px;
+  gap: 10px;
+  margin-left: 100px;
+  
+}
+.abt-text1 button{
+  margin: 30px 0 0 0px;
+  height: 40px;
+  width: 140px;
+  border-radius: 100px;
+  background-color: rgb(43, 100, 107);
+  color: aliceblue;
+  font-size: 1rem;
+  border: none;
+}
+.abt-text1 button:hover{
+  background-color:  rgb(2, 47, 53);
+  color: rgb(205, 225, 228);
+}
+.abt-text1 p{
+  font-size: 1rem;
+  margin-top: 20px;
+  color: rgb(5, 62, 70);
+}
+.abt-text1 h2{
+  font-size: 2rem;
+  margin-top: 20px;
+  color: rgb(43, 100, 107);
+}
+
+.container{
+  height: 22vmin;
+  background-color:rgb(202, 203, 203); 
+  margin: 0px;
+  padding: 10px;
+}
+.boxes{
+  display: flex;
+  gap: 2rem;
+  margin-left: 30vmin;
+  padding: 10px;
+
+}
+.box{
+  height: 12vmin;
+  width: 30vmin;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 39, 41);
+  margin: 30px 0 0 0;
+  display: flex;
+  gap: 1rem;
+  
+}
+.box-text{
+  margin:  25px 0 0 0px;
+  
+}
+.icons{
+  margin:  25px 0 0 30px;
+}
+
+
+.products{
+  height: 230vmin;
+  background-color: rgb(255, 249, 250);
+  padding: 40px;
+
+}
+.container2{
+  height: 180vmin;
+  width: 150vmin;
+  margin: 50px 0 0 150px;
+
+}
+.cards{
+  height: 45vmin;
+  width: 40vmin;
+  background-color:  rgb(229, 234, 235);;
+  padding: 20px;
+  opacity: 40px;
+}
+.cards img{
+  height: 30vmin;
+  width: 30vmin;
+  margin: 10px 0 0 40px;
+  transition: transform(2s); 
+}
+.cards img:hover{
+  transform: scale(1.2);
+}
+.cards p{
+  color: rgb(28, 95, 104);
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.card-text{
+  margin: 20px 0 0 60px;
+}
+.card-text p{
+  color: rgb(27, 27, 46);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.card-text h3{
+  color: rgb(43, 100, 107);
+  margin: 2px 0 0 30px;
+  font-size: 1.5rem;
+}
+.row{
+  display: flex;
+  gap: 1rem;
+  margin: 15px 0px 0 0px;
+
+}
+
+.reviews{
+  height: 60vmin;
+  background-color: rgb(255, 249, 250);
+  padding: 40px;
+}
+.cards1{
+  height: 35vmin;
+  width: 40vmin;
+  background-color:  rgb(229, 234, 235);
+  padding: 20px;
+  opacity: 40px;
+}
+.cards1 img{
+  margin: 20px 0 0 85px;
+  height: 12vmin;
+  width: 15vmin;
+}
+.cards1 p{
+  margin-top: 30px;
+  color: rgb(95, 93, 93);
+}
+.contact{
+  height: 100vmin;
+  background-color:rgb(233, 242, 244);
+  padding: 40px;
+ 
+}
+.form{
+  display: flex;
+ gap: 5rem;
+}
+.pic{
+  margin: 140px 0 0 0;
+  
+}
+.pic img{
+  height: 60vmin;
+  width: 80vmin;
+  
+}
+.contact form{
+  height: 70vmin;
+  width: 60vmin;
+  background-color:  rgb(235, 230, 230);
+  margin: 100px 0 0 140px;
+}
+.contact form input{
+  margin: 30px 0 0 30px;
+  height: 5vmin;
+  width: 50vmin;
+  flex-wrap: wrap;
+
+}
+.contact form textarea{
+  margin: 30px 0 0 30px;
+  height: 5vmin;
+  width: 50vmin;
+  flex-wrap: wrap;
+
+}
+.contact form button{
+  margin: 30px 0 0 130px;
+  height: 5vmin;
+  width: 25vmin;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(164, 194, 197);
+  color: rgb(18, 18, 39);
+  
+
+}
